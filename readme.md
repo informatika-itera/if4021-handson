@@ -8,7 +8,7 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 | 1   | Audio Processing | Audio Visualization                                                         | [1_working_with_audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_working_with_audio.ipynb)             |
 | 2   | Audio Processing | 1. Audio Manipulation<br>2. Trimming Audio<br>3. Fade in/out<br>            | [2_basic_audio_manipulation.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/2_basic_audio_manipulation.ipynb) |
 | 3   | Audio Processing | 1. Level Normalization<br>2. Loudness Level<br>3. Dynamic Range Compression | [3_amplitude_modification.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/3_amplitude_modification.ipynb)     |
-|     |                  |                                                                             |                                                                                                                                    |
+| 4   | Audio Processing | 1. dBFS<br>2. RMS<br>3. LUFS                                                |                                                                                                                                    |
 
 
 ## Visualization
