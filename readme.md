@@ -3,9 +3,9 @@
 This repository contains hands-on materials for the [IF4021](https://mctm.web.id/course/if4021) course at [Informatics Department](https://if.itera.ac.id), Institut Teknologi Suamtera ([ITERA](https://itera.ac.id)).
 
 ## Table of Contents
-| No. | Topic            | Description | Notebook |
-| --- | ---------------- | ----------- | -------- |
-| 1   | Audio Processing |             |          |
+| No. | Topic            | Description                                      | Notebook |
+| --- | ---------------- | ------------------------------------------------ | -------- |
+| 1   | Audio Processing | Basic audio processing and manipulation hands-on |          |
 
 
 ## Visualization
