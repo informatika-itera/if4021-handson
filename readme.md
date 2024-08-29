@@ -11,8 +11,8 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 | 3   | Audio Processing | 1. Level Normalization<br>2. Loudness Level<br>3. Dynamic Range Compression | [3_amplitude_modification.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/3_amplitude_modification.ipynb)     |
 | 4   | Audio Processing | 1. dBFS<br>2. RMS<br>3. LUFS                                                | [4_loudness_meter.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/4_loudness_meter.ipynb)                     |
 | 5   | Audio Processing | FFT                                                                         | [5_fft.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/5_fft.ipynb)                                           |
-| 6   | Audio Processing | Equalizer                                                                   | [6_graphic_equalizer.ipynb][https://github.com/informatika-itera/if4021-handson/blob/main/6_graphic_equalizer.ipynb]               |
-| 7   | Audio Processing | Audio Filtering                                                             | [7_audio_filter.ipynb][https://github.com/informatika-itera/if4021-handson/blob/main/7_audio_filter.ipynb]                    |
+| 6   | Audio Processing | Equalizer                                                                   | [6_graphic_equalizer.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/6_graphic_equalizer.ipynb)               |
+| 7   | Audio Processing | Audio Filtering                                                             | [7_audio_filter.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/7_audio_filter.ipynb)                         |
 |     |                  |                                                                             |                                                                                                                                    |
 
 
