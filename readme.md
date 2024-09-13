@@ -13,8 +13,8 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 | 5   | Audio Processing | FFT                                                                         | [5_fft.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/5_fft.ipynb)                                           |
 | 6   | Audio Processing | Equalizer                                                                   | [6_graphic_equalizer.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/6_graphic_equalizer.ipynb)               |
 | 7   | Audio Processing | Audio Filtering                                                             | [7_audio_filter.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/7_audio_filter.ipynb)                         |
+| 8   | Image Processing | Working with Image in Python                                                | [8_working_with_image.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/8_working_with_image.ipynb)             |
 |     |                  |                                                                             |                                                                                                                                    |
-
 
 ## Visualization
 
