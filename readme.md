@@ -4,9 +4,10 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 
 
 ## Table of Contents
-| No. | Topic            | Description                  | Notebook                                                                                                               |
-| --- | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| No. | Topic            | Description                  | Notebook                                                                                                                           |
+| --- | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Audio Processing | Working with audio in python | [1_working_with_audio_final.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_working_with_audio_final.ipynb) |
+| 2   | Audio Processing | Basic audio manipulation     | [2_basic_audio_manipulation.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/2_basic_audio_manipulation.ipynb) |
 
 ## Visualization
 
