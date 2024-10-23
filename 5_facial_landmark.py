@@ -30,8 +30,8 @@ while cap.isOpened():
     if results.multi_face_landmarks:
         for face_landmarks in results.multi_face_landmarks:
             # Get landmarks for left eye
-            left_eye_x1, left_eye_y1 = int(face_landmarks.landmark[124].x * frame.shape[1]), int(face_landmarks.landmark[124].y * frame.shape[0])
-            left_eye_x2, left_eye_y2 = int(face_landmarks.landmark[128].x * frame.shape[1]), int(face_landmarks.landmark[128].y * frame.shape[0])
+            left_eye_x1, left_eye_y1 = int(face_landmarks.landmark[217].x * frame.shape[1]), int(face_landmarks.landmark[217].y * frame.shape[0])
+            left_eye_x2, left_eye_y2 = int(face_landmarks.landmark[391].x * frame.shape[1]), int(face_landmarks.landmark[391].y * frame.shape[0])
 
             # Get landmarks for right eye
             right_eye_x1, right_eye_y1 = int(face_landmarks.landmark[285].x * frame.shape[1]), int(face_landmarks.landmark[285].y * frame.shape[0])
