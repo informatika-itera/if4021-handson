@@ -8,7 +8,7 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 | --- | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Audio Processing | Working with audio in python | [1_working_with_audio_final.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_working_with_audio_final.ipynb) |
 | 2   | Audio Processing | Basic audio manipulation     | [2_basic_audio_manipulation.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/2_basic_audio_manipulation.ipynb) |
-
+| 3   | Audio Processing | Module Audio | [3_Module_Audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_working_with_audio_final.ipynb) |
 ## Visualization
 
 This project contains interactive visualizations for various concepts in the IF4021 course. To access this, visit [IF4021 Visualizations](https://invis.mctm.web.id/).
