@@ -6,34 +6,17 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 ## Table of Contents
 | No. | Topic            | Description                  | Notebook                                                                                                                           |
 | --- | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Audio Processing | Working with audio in python | [1_working_with_audio_final.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_working_with_audio_final.ipynb) |
-| 2   | Audio Processing | Basic audio manipulation     | [2_basic_audio_manipulation.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/2_basic_audio_manipulation.ipynb) |
-| 3   | Audio Processing | Module Audio                 | [3_Module_Audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/3_Module_Audio.ipynb)                               |
+| 1   | Audio Processing | Module Audio                 | [3_Module_Audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/3_Module_Audio.ipynb)                               |
 
-## Visualization
+## Peraturan Hands-on
 
-This project contains interactive visualizations for various concepts in the IF4021 course. To access this, visit [IF4021 Visualizations](https://invis.mctm.web.id/).
+1. Dilarang keras melakukan joki baik dalam tugas maupun Ujian.
+2. Jika anda meminta bantuan kawan anda mengenai tugas, harap cantumkan nama dan NIM dari mahasiswa tersebut.
+3. Jika ditemukan tindakan diatas maka akan mendapatkan sanksi sesuai hukum yang berlaku di ITERA
+4. Diizinkan menggunakan AI seperti GPT, Gemini dan lain sebagainya namun cantumkan juga buktinya didalam notebook dengan menjelaskan kapan dilakukan chat tersebut.
 
+## Informasi lebih lanjut
 
-## Contributing to Visualizations
+Untuk mendapatkan informasi lainnya bisa dibaca melalui website berikut :
 
-To contribute to IF4021 Visualizations, follow these steps:
-
-1. Fork this repository.
-2. Create a branch: `git checkout -b <branch_name>`.
-3. Make your changes and commit them: `git commit -m '<commit_message>'`
-4. Push to the original branch: `git push origin <project_name>/<location>`
-5. Create the pull request.
-
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
-
-## Copyrights
-```
-Copyright 2024, Martin Clinton Tosima Manullang
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-```
+[https://mctm.web.id/course/2024-2025-2-if4021]
