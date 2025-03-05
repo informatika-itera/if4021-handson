@@ -6,7 +6,7 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 ## Table of Contents
 | No. | Topic            | Description                  | Notebook                                                                                                                           |
 | --- | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| 1   | Audio Processing | Module Audio                 | [3_Module_Audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/3_Module_Audio.ipynb)                               |
+| 1   | Audio Processing | Module Audio                 | [3_Module_Audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_Module_Audio.ipynb)                               |
 
 ## Peraturan Hands-on
 
