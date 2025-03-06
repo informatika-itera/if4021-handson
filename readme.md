@@ -7,6 +7,7 @@ This repository contains hands-on materials for the [IF4021](https://mctm.web.id
 | No. | Topic            | Description                  | Notebook                                                                                                                           |
 | --- | ---------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | 1   | Audio Processing | Module Audio                 | [1_Module_Audio.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/1_Module_Audio.ipynb)                               |
+| 2   | Image Processing | Module Image                | [2_Module_Image.ipynb](https://github.com/informatika-itera/if4021-handson/blob/main/2_working_with_image.ipynb)                               |
 
 ## Peraturan Hands-on
 
