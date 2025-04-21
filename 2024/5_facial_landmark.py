@@ -3,11 +3,10 @@ from glob import glob
 import cv2
 import numpy as np
 import matplotlib.pyplot as plt
-import dlib
 import datetime as dt
 import mediapipe as mp
 
-VID_PATH = os.path.join(os.getcwd(), 'data', 'toby-rgb.mp4')
+VID_PATH = os.path.join(os.getcwd(), 'data', 'doni.mp4')
 
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, min_detection_confidence=0.5, min_tracking_confidence=0.5)
@@ -30,8 +29,8 @@ while cap.isOpened():
     if results.multi_face_landmarks:
         for face_landmarks in results.multi_face_landmarks:
             # Get landmarks for left eye
-            left_eye_x1, left_eye_y1 = int(face_landmarks.landmark[217].x * frame.shape[1]), int(face_landmarks.landmark[217].y * frame.shape[0])
-            left_eye_x2, left_eye_y2 = int(face_landmarks.landmark[391].x * frame.shape[1]), int(face_landmarks.landmark[391].y * frame.shape[0])
+            left_eye_x1, left_eye_y1 = int(face_landmarks.landmark[55].x * frame.shape[1]), int(face_landmarks.landmark[55].y * frame.shape[0])
+            left_eye_x2, left_eye_y2 = int(face_landmarks.landmark[31].x * frame.shape[1]), int(face_landmarks.landmark[31].y * frame.shape[0])
 
             # Get landmarks for right eye
             right_eye_x1, right_eye_y1 = int(face_landmarks.landmark[285].x * frame.shape[1]), int(face_landmarks.landmark[285].y * frame.shape[0])

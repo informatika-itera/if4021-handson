@@ -9,6 +9,12 @@ import mediapipe as mp
 # Lokasi gambar kacamata
 IMG_KCMT = os.path.join(os.getcwd(), 'data', 'sdg.png')
 
+# Verify file exists and print absolute path for debugging
+if not os.path.exists(IMG_KCMT):
+    print(f"Error: Image file not found at {os.path.abspath(IMG_KCMT)}")
+    print(f"Current working directory: {os.getcwd()}")
+    raise FileNotFoundError(f"Image file not found: {IMG_KCMT}")
+
 # Inisialisasi Face Mesh
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh(
@@ -24,8 +30,8 @@ mp_drawing = mp.solutions.drawing_utils
 # Menentukan landmark yang ingin dideteksi
 mata_l_x1 = 70
 mata_l_x2 = 188
-mata_r_x1 = 336
-mata_r_x2 = 340
+mata_r_x1 = 285
+mata_r_x2 = 261
 
 # load gambar kacamata
 kcmt = cv2.imread(IMG_KCMT, cv2.IMREAD_UNCHANGED)
@@ -131,10 +137,10 @@ while cap.isOpened():
             
             # Position glasses so they're centered on the eyes
             x = center_x - glasses_width // 2
-            x = int(x * 1.1)
+            x = int(x * 1.07)
             # Move glasses up slightly to cover the eyes properly
             y = center_y - glasses_height // 2 - int(glasses_height * 0.2)
-            y = int(y * 1.4)
+            y = int(y * 1.15)
             
             # STEP4: Gambar ROI Bounding Box dengan OpenCV (commented out)
             ## BBOX Mata Kiri

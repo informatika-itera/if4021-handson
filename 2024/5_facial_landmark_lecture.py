@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import mediapipe as mp
 
 # Lokasi video
-VID_PATH = os.path.join(os.getcwd(), 'data', 'toby-rgb.mp4')
+VID_PATH = os.path.join(os.getcwd(), 'data', 'doni.mp4')
 IMG_KCMT = os.path.join(os.getcwd(), 'data', 'sdg.png')
 
 # Inisialisasi Face Mesh
@@ -124,10 +124,10 @@ while cap.isOpened():
             
             # Position glasses so they're centered on the eyes
             x = center_x - glasses_width // 2
-            x = int(x * 1.03)
+            x = int(x * 1.025)
             # Move glasses up slightly to cover the eyes properly
             y = center_y - glasses_height // 2 - int(glasses_height * 0.2)
-            y = int(y * 1.3)
+            y = int(y * 1.22)
             
             # STEP4: Gambar ROI Bounding Box dengan OpenCV (commented out)
             ## BBOX Mata Kiri
