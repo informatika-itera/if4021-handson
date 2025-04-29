@@ -148,11 +148,3 @@ while cap.isOpened():
     
 cap.release()
 cv2.destroyAllWindows()
-
-'''
-Tugas Hands-on 3:
-- Tempelkan sebuah .png pada wajah anda (bisa di landmark lain, selain mata)
-- Modifikasi kode di atas agar lebih smooth
-    Tips:   - Lakukan deteksi landmark tidak di setiap frame, melainkan setiap beberapa frame
-            - Misal. Deteksi landmark hanya dilakukan per setiap detik (atau 30 frame sekali)
-'''
