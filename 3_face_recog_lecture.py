@@ -58,6 +58,9 @@ def start_webcam():
             print("Failed to grab frame")
             break
             
+        # Mirror the frame horizontally to make movements appear natural
+        frame = cv2.flip(frame, 1)
+            
         # Convert the frame to grayscale
         gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         
