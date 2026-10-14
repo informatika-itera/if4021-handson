@@ -57,6 +57,8 @@ Daftar modul notebook interaktif pada branch `main`:
 | **03** | **Rekaman Kelas** | Analisis visual & restorasi rekaman kuliah di ruang kelas | [`3_audio_dikelas_visualization.ipynb`](notebook_handson/3_audio_dikelas_visualization.ipynb) |
 | **04** | **Loudness & Normalization** | Peak dBFS, True Peak, RMS, Crest Factor, LUFS, Batch Normalization & Crossfade | [`4_audio_loudness_normalization.ipynb`](notebook_handson/4_audio_loudness_normalization.ipynb) |
 | **05** | **Dynamic Processing** | Compressor, Brickwall Limiter, Noise Gate, Silence Trimming & Mastering Chain | [`5_audio_dynamic_processing.ipynb`](notebook_handson/5_audio_dynamic_processing.ipynb) |
+| **06** | **Music Information Retrieval** | Pitch shift & time stretch, deteksi pitch (YIN/pYIN), onset/tempo/beat, chroma & kunci lagu (Krumhansl–Schmuckler), chord recognition, mini-Shazam | [`6_audio_mir.ipynb`](notebook_handson/6_audio_mir.ipynb) |
+| **07** | **Struktur Data Citra & Warna** | ndarray (H, W, C), bit depth & overflow uint8, imread/imwrite, PNG vs JPEG, Grayscale, HSV, segmentasi warna & histogram | [`7_image_structure_color.ipynb`](notebook_handson/7_image_structure_color.ipynb) |
 
 ---
 

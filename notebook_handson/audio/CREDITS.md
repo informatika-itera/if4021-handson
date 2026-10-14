@@ -64,6 +64,46 @@ mendemonstrasikan keempat representasi visual audio.
 | **Sumber** | https://www.openslr.org/12/ (didistribusikan melalui `librosa` test data) |
 | **Modifikasi** | Potongan 9 detik dialog/narasi vokal, mono 22.050 Hz 16-bit PCM — ideal untuk normalisasi dialog, noise gating, dan silence trimming |
 
+## `trumpet_sample.wav`
+
+| | |
+|---|---|
+| **Judul** | solo trumpet 06 (*Jazz Trumpet Loops Pack in F, 90 bpm*) |
+| **Pencipta** | Mihai Sorohan |
+| **Lisensi** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| **Sumber** | https://freesound.org/s/77711/ (didistribusikan melalui `librosa` test data) |
+| **Modifikasi** | Berkas utuh 5,3 detik, mono 22.050 Hz 16-bit PCM, puncak dinormalisasi ke −3 dBFS — melodi monofonik untuk deteksi pitch |
+
+## `nutcracker_sample.wav`
+
+| | |
+|---|---|
+| **Judul** | Dance of the Sugar Plum Fairy |
+| **Pencipta** | P.I. Tchaikovsky (komponis), Kevin MacLeod (aransemen) |
+| **Lisensi** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| **Sumber** | https://freemusicarchive.org/music/Kevin_MacLeod/Classical_Sampler/Dance_of_the_Sugar_Plum_Fairy (didistribusikan melalui `librosa` test data) |
+| **Modifikasi** | 30 detik pertama, mono 22.050 Hz 16-bit PCM, puncak dinormalisasi ke −3 dBFS — deteksi kunci, chord, beat, dan fingerprinting |
+
+## `brahms_sample.wav`
+
+| | |
+|---|---|
+| **Karya** | Hungarian Dance No. 5 (aransemen string orchestra) |
+| **Komponis / Pemain** | Johannes Brahms / US Army Strings |
+| **Lisensi** | [Public Domain Mark 1.0](https://creativecommons.org/publicdomain/mark/1.0/) |
+| **Sumber** | https://musopen.org/music/43805-hungarian-dance-no-5-in-f-sharp-minor-woo-1-string-orch (didistribusikan melalui `librosa` test data) |
+| **Modifikasi** | 30 detik pertama, mono 22.050 Hz 16-bit PCM, puncak dinormalisasi ke −3 dBFS — studi kasus deteksi kunci |
+
+## `snare_accelerate.wav`
+
+| | |
+|---|---|
+| **Judul** | Accelerating snare drum |
+| **Pencipta** | Brian McFee; sampel snare oleh sakebeats (https://freesound.org/people/sakebeats/sounds/176345/) |
+| **Lisensi** | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| **Sumber** | `librosa` test data (`librosa.ex('snare')`) |
+| **Modifikasi** | 20 detik pertama, mono 22.050 Hz 16-bit PCM, puncak dinormalisasi ke −3 dBFS — tempo yang terus meningkat untuk demonstrasi tempogram |
+
 ---
 
 Lisensi CC BY 4.0 mewajibkan pencantuman atribusi. Berkas ini adalah pemenuhan kewajiban
